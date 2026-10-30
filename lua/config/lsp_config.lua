@@ -1,10 +1,10 @@
 vim.lsp.enable("clangd")
 
 vim.filetype.add({
-	extension = {
-		h = "c",
-		hpp = "cpp",
-	},
+    extension = {
+        h = "c",
+        hpp = "cpp",
+    },
 })
 -- colors for the diagnostics
 vim.api.nvim_set_hl(0, "DiagnosticVirtualLinesError", { fg = "#fb4934" })
