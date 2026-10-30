@@ -39,6 +39,14 @@ return {
 					vim.g.catppuccin_flavour = "frappe"
 					]],
 				},
+				{
+					name = "Catppuccin Mocha",
+					colorscheme = "catppuccin",
+					before = [[
+					vim.o.background = "dark"
+					vim.g.catppuccin_flavour = "mocha"
+					]],
+				},
 			},
 			livePreview = true,
 		})
